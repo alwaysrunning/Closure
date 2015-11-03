@@ -15,8 +15,11 @@
 闭包的使用场景是 设计私有变量和方法（长期保存在内存当中，不会被全局变量污染）
 
 var aaa = (function(){
+
         var a = 1;
+        
         function bbb(){
+        
                 a++;
                 
                 alert(a);
@@ -38,6 +41,7 @@ var aaa = (function(){
                 c:ccc
                 
         }
+        
 })();
 
 aaa.b();     //2
