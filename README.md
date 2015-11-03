@@ -16,9 +16,7 @@
 
 var aaa = (function(){
         var a = 1;
-        
         function bbb(){
-        
                 a++;
                 
                 alert(a);
